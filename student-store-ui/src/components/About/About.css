@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    align-items: flex-start;
+    background: white;
+    font-family: 'Poppins';
+}
+
+.aboutImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutImage img {
+    height: 350px;
+}

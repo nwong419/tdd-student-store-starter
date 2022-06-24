@@ -1,0 +1,28 @@
+.navbar {
+    width: 100vw;
+    height: 70px;
+    background-color: #D9756C;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    font-weight: bolder;
+}
+
+.links a {
+    color: #F2C7AE;
+    text-decoration: none;
+}
