@@ -1,6 +1,6 @@
 import * as React from "react"
 import "./About.css"
-
+//changes
 export default function About() {
     return (
         <div className="about" id="About">
