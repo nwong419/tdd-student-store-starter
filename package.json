@@ -1,0 +1,20 @@
+{
+  "name": "tdd-student-store-starter",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwong419/tdd-student-store-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwong419/tdd-student-store-starter/issues"
+  },
+  "homepage": "https://github.com/nwong419/tdd-student-store-starter#readme"
+}
