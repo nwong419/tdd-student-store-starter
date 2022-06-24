@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import "./SubNavbar.css"
+import "./SubNavBar.css"
 
 export default function SubNavbar({ category, setCategory, handleOnTextChange, handleOnToggle }) {
     const [openBar, setOpenBar] = useState(true)
