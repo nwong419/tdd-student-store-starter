@@ -5,7 +5,7 @@ export default function Logo() {
     return (
         <div className="logo">
             <Link to="/" className="logo-link">
-                <img src="/images/codepath.svg"></img>
+                <img src="codepath.svg"></img>
             </Link>
         </div>
     )

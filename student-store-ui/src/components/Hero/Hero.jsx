@@ -12,7 +12,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="hero-img">
-        <img src="images/shopping.svg" alt="homeImage" />
+        <img src="/shopping.svg" alt="homeImage" />
       </div>
     </div >
   );
