@@ -17,7 +17,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contactImage">
-                    <img src="../../../images/home.svg" alt="contactImage"></img>
+                    <img src="/images/home.svg" alt="contactImage"></img>
                 </div>
             </div>
             <Footer />
