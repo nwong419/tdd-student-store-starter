@@ -147,243 +147,6 @@
   ],
   "purchases": [
     {
-      "shoppingCart": [
-        {
-          "itemId": 2,
-          "quantity": 1
-        },
-        {
-          "itemId": 3,
-          "quantity": 4
-        }
-      ],
-      "user": {
-        "name": "nicole",
-        "email": "nicole@test.com"
-      }
-    },
-    {
-      "shoppingCart": [],
-      "user": {
-        "name": "ni",
-        "email": "ni"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 9,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "ni",
-        "email": "ni"
-      }
-    },
-    {
-      "shoppingCart": [],
-      "user": {
-        "name": "test",
-        "email": "test"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 9,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "test",
-        "email": "test"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 8,
-          "quantity": 3
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 8,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 9,
-          "quantity": 4
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 9,
-          "quantity": 3
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "6"
-      }
-    },
-    {
-      "shoppingCart": [],
-      "user": {
-        "name": "tr",
-        "email": "tr"
-      }
-    },
-    {
-      "shoppingCart": [],
-      "user": {
-        "name": "c",
-        "email": "cx"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 4,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "w",
-        "email": "w"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 3,
-          "quantity": 1
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "y"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 4,
-          "quantity": 1
-        }
-      ],
-      "user": {
-        "name": "f",
-        "email": "r"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 2,
-          "quantity": 3
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 2,
-          "quantity": 2
-        },
-        {
-          "itemId": 3,
-          "quantity": 3
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": "t"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 3,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "t",
-        "email": ";"
-      }
-    },
-    {
-      "shoppingCart": [
-        {
-          "itemId": 3,
-          "quantity": 2
-        }
-      ],
-      "user": {
-        "name": "v",
-        "email": "f"
-      }
-    },
-    {
-      "id": null,
-      "name": "t",
-      "email": "t",
-      "order": [
-        {
-          "itemId": 2,
-          "quantity": 2
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:20:41 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "id": null,
-      "name": "t",
-      "email": "t",
-      "order": [
-        {
-          "itemId": 2,
-          "quantity": 2
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:21:08 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
       "id": 3,
       "name": "t",
       "email": "t",
@@ -484,6 +247,31 @@
       ],
       "total": 0,
       "createdAt": "Tue Jun 28 2022 22:59:44 GMT-0700 (Pacific Daylight Time)"
+    },
+    {
+      "id": 29,
+      "name": "nicole",
+      "email": "testagain@gmail.com",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 4
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 4,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "createdAt": "Wed Jun 29 2022 09:11:49 GMT-0700 (Pacific Daylight Time)"
     }
   ]
 }

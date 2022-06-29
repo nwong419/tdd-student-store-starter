@@ -30,8 +30,14 @@ export default function App() {
   //search term
   const [searchTerm, setSearchTerm] = useState("");
 
+  const [orderSearchTerm, setOrderSearchTerm] = useState("");
+
   function handleOnTextChange(event) {
     setSearchTerm(event.target.value);
+  }
+
+  function handleOnOrderTextChange(event) {
+    setOrderSearchTerm(event.target.value);
   }
 
   //checkout form
@@ -181,7 +187,7 @@ export default function App() {
                 handleRemoveItemFromCart={handleRemoveItemFromCart} />}>
               </Route>
               <Route path="/orders/:id" element={<OrderDetails products={products}/>}/>
-              <Route path="/orders" element={<Orders orders={orders}/>} />
+              <Route path="/orders" element={<Orders orders={orders} handleOnOrderTextChange={handleOnOrderTextChange} orderSearchTerm={orderSearchTerm}/>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </>
