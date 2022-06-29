@@ -4,6 +4,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #F2C7AE;
+    margin-top: 50px;
+}
+
+.about h3 {
+    color: white;
 }
 
 .aboutContent {
@@ -13,8 +19,10 @@
 
 .text {
     align-items: flex-start;
-    background: white;
+    background: #F2C7AE;
+    color: white;
     font-family: 'Poppins';
+    font-size: 20px;
 }
 
 .aboutImage {

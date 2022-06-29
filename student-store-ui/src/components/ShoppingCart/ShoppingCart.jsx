@@ -13,11 +13,12 @@ export default function ShoppingCart({ isOpen, products, shoppingCart }) {
     const calculateOrderTotal = (subtotal) => subtotal += calculateTaxes(subtotal);
 
     const cartOpen = isOpen ? "open" : "closed";
-    //console.log(shoppingCart);
+    //
 
     const getProduct = (itemId) => {
-        //console.log(itemId);
-        return products.find((product) => product.id == itemId);
+        //
+        //
+        return products.find((product) => product.products.id == itemId).products;
     }
 
     return (
@@ -42,7 +43,7 @@ export default function ShoppingCart({ isOpen, products, shoppingCart }) {
                         {shoppingCart.length > 0 && shoppingCart.map((shoppingItem) => {
                             const prod = getProduct(shoppingItem.itemId);
                             const productSubTotal = calculateSubTotal(prod.price, shoppingItem?.quantity);
-                            console.log(productSubTotal);
+                            
                             subtotal += productSubTotal;
                             return (
                                 <ProductRow productName={prod.name}
@@ -76,7 +77,7 @@ export default function ShoppingCart({ isOpen, products, shoppingCart }) {
 }
 
 export function ProductRow({ productName, productPrice, productQuantity, productSubtotal }) {
-    console.log(`productName: ${productName}`);
+    
     return (
         <div className="product-row">
             <span className="flex-2 cart-product-name">{productName}</span>

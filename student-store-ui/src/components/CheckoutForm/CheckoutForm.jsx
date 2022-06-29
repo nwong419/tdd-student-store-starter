@@ -1,6 +1,7 @@
 import "./CheckoutForm.css"
 
-export default function CheckoutForm({ isOpen, shoppingCart, checkoutForm, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, error, success }) {
+export default function CheckoutForm({ isOpen, shoppingCart, checkoutForm, handleOnCheckoutFormChange,
+    handleOnSubmitCheckoutForm, error, success }) {
 
     const cartOpen = isOpen ? "open" : "closed";
 
@@ -36,7 +37,7 @@ export default function CheckoutForm({ isOpen, shoppingCart, checkoutForm, handl
                         <button className="checkout-button" onClick={handleOnSubmitCheckoutForm}>Checkout</button>
                     </div>
                     {error != "" && <div className="error">{error}</div>}
-                    {success != "" && <div className="sucess">{success}</div>}
+                    {success != "" && <div className="success">{success}</div>}
                 </div>
             </div>
 

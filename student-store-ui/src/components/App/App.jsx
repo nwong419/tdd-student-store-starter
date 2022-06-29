@@ -10,6 +10,8 @@ import axios from "../../../api/axios";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ProductDetail from "../ProductDetail/ProductDetail";
 import NotFound from "../NotFound/NotFound";
+import Orders from "../Orders/Orders";
+import OrderDetails from "../OrderDetails/OrderDetails";
 
 export default function App() {
   const [products, setProducts] = useState('');
@@ -43,6 +45,8 @@ export default function App() {
 
   const handleOnSubmitCheckoutForm = async () => {
     //perform validation checking
+    setSuccess("");
+    setError("");
     if (checkoutForm.name == "" || checkoutForm.email == "") {
       setError("User info must include an email and name.");
       return;
@@ -55,7 +59,8 @@ export default function App() {
       user: checkoutForm,
       shoppingCart: shoppingCart,
     }
-    axios.post("/store", newObject)
+    console.log(newObject);
+    axios.post("http://localhost:3001/store", newObject)
       .then((res) => {
         setSuccess("Successful!");
       })
@@ -71,15 +76,17 @@ export default function App() {
   //only run on render since we are passing an empty value
   useEffect(() => {
     setIsFetching(true);
-    axios.get("/store")
+    axios.get("http://localhost:3001/store")
       .then((res) => {
         //
-        setProducts(res.data.products);
+        setProducts(res.data);
         setIsFetching(false);
+        //console.log(products);
       })
       .catch((err) => {
         setError("Failed to fetch data.");
       });
+    //console.log("orders", orders);
   }, []);
 
 
@@ -120,6 +127,22 @@ export default function App() {
     }
   }
 
+  //orders 
+  const [orders, setOrders] = useState([]);
+  useEffect(() => {
+    //get orders
+    axios.get("http://localhost:3001/orders")
+      .then((res) => {
+        //
+        console.log("res", res.data);
+        setOrders(res.data);
+        //console.log(orders);
+      })
+      .catch((err) => {
+        setError("Failed to fetch data.");
+      });
+  }, []);
+
   return (
     <div className="app">
       <BrowserRouter>
@@ -157,6 +180,8 @@ export default function App() {
                 shoppingCart={shoppingCart}
                 handleRemoveItemFromCart={handleRemoveItemFromCart} />}>
               </Route>
+              <Route path="/orders/:id" element={<OrderDetails products={products}/>}/>
+              <Route path="/orders" element={<Orders orders={orders}/>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </>

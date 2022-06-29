@@ -17,10 +17,10 @@ export default function ProductDetail({
 
     useEffect(async () => {
         setIsFetching(true);
-        await axios.get(`/store/${productId}`)
+        await axios.get(`http://localhost:3001/store/${productId}`)
             .then((res) => {
                 setIsFetching(false);
-                setProduct(res.data.product);
+                setProduct(res.data);
                 //
             })
             .catch((err) => {

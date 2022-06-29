@@ -10,7 +10,7 @@ export default function ProductGrid({ products, handleAddItemToCart, shoppingCar
                     <h3>Best Selling Products</h3>
                     <div className="grid">
                         {products.map((product, index) => (
-                                <ProductCard product={product} handleAddItemToCart={handleAddItemToCart} handleRemoveItemFromCart={handleRemoveItemFromCart} shoppingCart={shoppingCart} showDescription={false}/>
+                                <ProductCard product={product.products} handleAddItemToCart={handleAddItemToCart} handleRemoveItemFromCart={handleRemoveItemFromCart} shoppingCart={shoppingCart} showDescription={false}/>
                         ))}
                     </div>
                 </div>

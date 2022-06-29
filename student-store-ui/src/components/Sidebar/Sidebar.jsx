@@ -4,7 +4,8 @@ import CheckoutForm from "../CheckoutForm/CheckoutForm";
 import "./Sidebar.css"
 
 export default function Sidebar({ isOpen, shoppingCart, products,
-  checkoutForm, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, handleOnToggle, error, success }) {
+  checkoutForm, handleOnCheckoutFormChange, handleOnSubmitCheckoutForm, 
+  handleOnToggle, error, success}) {
   const menuCollapse = isOpen ? "open" : "closed";
   return (
     <div className={`sidebar ${menuCollapse}`}>
