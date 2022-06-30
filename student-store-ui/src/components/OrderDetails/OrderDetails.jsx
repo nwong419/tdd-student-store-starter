@@ -5,7 +5,7 @@ import axios from '../../../api/axios';
 
 export default function OrderDetails({products}) {
     const { id } = useParams();
-    const [singleOrder, setSingleOrder] = useState('');
+
     const [error, setError] = useState("");
 
     const getProductById = (id) => {

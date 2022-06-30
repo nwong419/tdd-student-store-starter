@@ -147,94 +147,34 @@
   ],
   "purchases": [
     {
-      "id": 3,
-      "name": "t",
-      "email": "t",
-      "order": [
-        {
-          "itemId": 3,
-          "quantity": 2
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:22:01 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "id": null,
-      "name": "test",
-      "email": "test",
-      "order": [
-        {
-          "itemId": 3,
-          "quantity": 1
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:33:29 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "name": "test",
-      "email": "test",
-      "order": [
-        {
-          "itemId": 3,
-          "quantity": 2
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:36:26 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "id": 24,
-      "name": "test",
-      "email": "test",
-      "order": [
-        {
-          "itemId": 3,
-          "quantity": 2
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 10:37:18 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "id": 25,
+      "id": 1,
       "name": "Nicole",
       "email": "test@gmail.com",
       "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
         {
           "itemId": 2,
-          "quantity": 5
-        }
-      ],
-      "total": 0,
-      "createdAt": "Tue Jun 28 2022 21:47:12 GMT-0700 (Pacific Daylight Time)"
-    },
-    {
-      "id": 27,
-      "name": "Nicole",
-      "email": "test@gmail.com",
-      "order": [
-        {
-          "itemId": 11,
-          "quantity": 3
-        },
-        {
-          "itemId": 12,
           "quantity": 1
         },
         {
-          "itemId": 13,
+          "itemId": 3,
+          "quantity": 1
+        },
+        {
+          "itemId": 4,
           "quantity": 1
         }
       ],
       "total": 0,
-      "createdAt": "Tue Jun 28 2022 22:57:08 GMT-0700 (Pacific Daylight Time)"
+      "createdAt": "Thu Jun 30 2022 09:12:20 GMT-0700 (Pacific Daylight Time)"
     },
     {
-      "id": 28,
+      "id": 2,
       "name": "test",
-      "email": "test",
+      "email": "test@gmail.com",
       "order": [
         {
           "itemId": 4,
@@ -243,35 +183,27 @@
         {
           "itemId": 5,
           "quantity": 1
+        },
+        {
+          "itemId": 10,
+          "quantity": 3
         }
       ],
       "total": 0,
-      "createdAt": "Tue Jun 28 2022 22:59:44 GMT-0700 (Pacific Daylight Time)"
+      "createdAt": "Thu Jun 30 2022 09:12:41 GMT-0700 (Pacific Daylight Time)"
     },
     {
-      "id": 29,
-      "name": "nicole",
-      "email": "testagain@gmail.com",
+      "id": 3,
+      "name": "test",
+      "email": "another@gmail.com",
       "order": [
         {
-          "itemId": 3,
-          "quantity": 4
-        },
-        {
-          "itemId": 2,
-          "quantity": 1
-        },
-        {
-          "itemId": 1,
-          "quantity": 2
-        },
-        {
           "itemId": 4,
-          "quantity": 1
+          "quantity": 3
         }
       ],
       "total": 0,
-      "createdAt": "Wed Jun 29 2022 09:11:49 GMT-0700 (Pacific Daylight Time)"
+      "createdAt": "Thu Jun 30 2022 09:13:02 GMT-0700 (Pacific Daylight Time)"
     }
   ]
 }
