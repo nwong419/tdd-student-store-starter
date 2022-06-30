@@ -5,8 +5,11 @@
 Selling merchandise in the modern era requires digital solutions. For this project, you'll be tasked with designing and constructing an online student store for the College of Codepath. The application entails a frontend user interface for potential customers to peruse the goods, and a backend API to handle data management. The API will be built with Node and Express and the UI will be built with React.
 
 ## Deployed Site: https://student-store-one.vercel.app/
-
+Part One:
 https://user-images.githubusercontent.com/65055587/175699644-ef465e98-4068-4364-abec-0d4567da6256.mp4
+
+Part Two:
+https://user-images.githubusercontent.com/65055587/176727228-26b5c133-e10e-4cb3-88a0-da15fe8fa8ae.mp4
 
 ### Application Features
 
@@ -287,15 +290,15 @@ The following specifications were met on the Express backend and the React front
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, the topics discuseed in the labs prepared me to complete the assignment as this week was about creating endpoints and using middleware to assist with processing the data. However, I did feel unprepared to create the endpoints myself without guidance.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
-Add your response here
+I would have made my order details page interactive in which you could click on a specific order and get all the images and prices of the products purchased.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+For this project, creating the endpoints (two GET and one POST request) went well. However, I didn't get to implement all the fields that the POST request would need (missed the total in the shopping cart). I also encountered technical issues when I first tried to use the storage.js that was provided to us. I was unfamiliar with utilizing a local json file as the "database" so it took me some time to understand how storing data would work. I noticed that my peer had a very aesthetic UI for her order details page when clicking on a specific past order. Next time I would like to spend more time on the interface and how the information is displayed.
 
 ### Open-source libraries used
 
