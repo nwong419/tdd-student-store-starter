@@ -5,10 +5,10 @@
 Selling merchandise in the modern era requires digital solutions. For this project, you'll be tasked with designing and constructing an online student store for the College of Codepath. The application entails a frontend user interface for potential customers to peruse the goods, and a backend API to handle data management. The API will be built with Node and Express and the UI will be built with React.
 
 ## Deployed Site: https://student-store-one.vercel.app/
-Part One:
+
 https://user-images.githubusercontent.com/65055587/175699644-ef465e98-4068-4364-abec-0d4567da6256.mp4
 
-Part Two:
+
 https://user-images.githubusercontent.com/65055587/176727228-26b5c133-e10e-4cb3-88a0-da15fe8fa8ae.mp4
 
 ### Application Features
